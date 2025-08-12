@@ -1,0 +1,12 @@
+<div class="destaque destaque-grupo">
+  <a href="#" 
+     class="tecnica-link" 
+     [class.active]="isActive"
+     (mouseenter)="onMouseEnter()" 
+     (mouseleave)="onMouseLeave()"
+     (click)="onClick($event)">
+    {{ tituloPrincipal }}<br>
+    <span class="tecnica-traducao">{{ tituloTraducao }}</span>
+  </a>
+</div>
+

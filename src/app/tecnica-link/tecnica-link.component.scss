@@ -1,0 +1,36 @@
+/* Estilos para a seção principal, que é o link em si */
+.destaque-grupo a {
+  display: block;
+  background: #ffffff;
+  border: 1px solid #e5c9a0;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  text-decoration: none; /* Remove o sublinhado padrão do link */
+  color: #e47003;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  cursor: pointer;
+  font-size: 0.93em;
+  font-style: italic;
+}
+
+.tecnica-traducao {
+  color: #af0043;
+  font-style: normal;
+}
+/* Estilo para a tradução da técnica */
+// .tecnica-traducao {
+  /* Não precisa de uma regra aqui, pois o estilo já está na regra do link pai */
+
+
+/* Estilo de hover (passar o mouse) */
+.destaque-grupo a:hover {
+  background-color: #c4ffc2;
+}
+
+/* Estilo para o link "ativo" (ao ser clicado ou com hover) */
+.destaque-grupo a.active {
+  background-color: #c4ffc2;
+  color: #e47b03;
+}

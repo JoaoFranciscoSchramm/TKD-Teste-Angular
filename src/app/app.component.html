@@ -1,0 +1,424 @@
+
+<div class="body2">
+  <div class="background-image"></div>
+    <!-- NOVA SEÇÃO DE INTRODUÇÃO -->
+  <div class="introducao">
+    <h1>FAIXA BRANCA (10º GUB)</h1>
+    <p>Olá, seja bem vindo. <br><br>Neste conteúdo programático, cada técnica é nomeada em coreano romanizado segundo o padrão da Kukkiwon, estabelecido desde 2012.
+   Com o propóstio de facilitar a assimilação, os termos seguem em tradução direita na linha logo abaixo. Já as sentenças destacadas em vermelho expressam a técnica na sintaxe do português.<br> <br>Bom treino!</p>
+  </div>
+
+  <!-- PRIMEIRO BLOCO - JUTCHUN CHIRIGI -->
+  <div class="secao-jutchun">
+    <div class="cabecalho">
+      <div class="titulo-container">
+        <h2 class="titulo-principal">JUTCHUN JIREUGI</h2> 
+        <p class="titulo-traducao">SOCO NA BASE DO CAVALO</p>
+      </div>
+    </div>
+    
+    <div class="conteudo-principal">
+      <div class="conteudo-texto">
+        <div class="comando-container">
+          <div class="descricao-portugues">
+            <div class="grupo-tecnicas" data-video="dQw4w9WgXcQ">
+              <div class="tecnica-descricao">
+                Deslocar o pé à esquerda e socar nas três posições <br>Primeiro golpe sempre com a esquerda<br>
+              </div>
+              
+              <app-tecnica-link 
+  [tituloPrincipal]="'1) Moa-seogi-momtong-jireugi'"
+  [tituloTraducao]="'Soco no Tronco na Base Fechada'"
+  [dataId]="'jutchun-1'"
+  (linkHover)="onLinkHover($event)"
+  (linkClick)="onLinkClick($event)">
+</app-tecnica-link>
+              <div class="janela-container" *ngIf="janelaId">
+  <div class="janela-conteudo">
+    <button class="btn-fechar" (click)="fecharJanela()">X</button>
+
+    <div class="iframe-container">
+      <iframe width="100%" height="auto" [src]="videoUrls[janelaId] | safeUrl" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="janela-texto">
+      <!-- <h2>{{ tituloDaJanela }}</h2> -->
+      <!-- <p>{{ descricaoDaJanela }}</p> -->
+    </div>
+  </div>
+</div>
+
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela1">
+                  2) Naran-seogi-momtong-jireugi<br>
+                  <span class="tecnica-traducao"> Soco no Tronco na Base Paralela</span>
+                </a>
+              </div>
+              
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela1">
+                  3) Juchum-seogi-momtong-jireugi<br>
+                  <span class="tecnica-traducao">Soco no Tronco na Base do Cavalo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Área da janela (inicialmente vazia) -->
+      <div class="conteudo-janela">
+        <div class="janela-container" id="janela1"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEGUNDO BLOCO - KIBON DONJAK -->
+  <div class="secao-kibon">
+    <div class="cabecalho">
+      <div class="titulo-container">
+        <h2 class="titulo-principal">KIBON DONJAK</h2>
+        <p class="titulo-traducao">TÉCNICAS DE SOCOS E DEFESAS</p>
+      </div>
+    </div>
+    
+    <div class="conteudo-principal">
+      <div class="conteudo-texto">
+        <div class="comando-container">
+          <div class="descricao-portugues">
+            <div class="tecnica-descricao">
+                Aprokah-wen-apgubi: <br>Avanço à Esquerda na Base Frontal
+              </div>
+            <div class="grupo-tecnicas" data-video="VIDEO_ID_KIBON_DONJAK">
+              <div class="tecnica-descricao"></div>
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela2">
+                  1) Arae-makgi<br>
+                          <span class="tecnica-traducao">Defesa Embaixo</span>
+                </a>
+              </div>
+              
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela2">
+                  2) Momtong-makgi<br>
+                                    <span class="tecnica-traducao">Defesa no Tronco</span>
+                </a>
+              </div>
+              
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela2">
+                  3) Eolgul-makgi<br>
+                                    <span class="tecnica-traducao">Defesa no Rosto</span>
+                </a>
+              </div>
+              
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela2">
+                  4) (Bakkatpalmok) Naeryo-hecheo-makgi  <br>
+                          <span class="tecnica-traducao">Defesa Espalhada Descendente  </span>
+                </a>
+              </div>
+                <div class="tecnica-descricao">
+                Base de Caminhada (Ap-seogi)
+              </div>
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela2">
+                  5) Arae-jireugi  <br>
+                          <span class="tecnica-traducao">Soco Embaixo</span>
+                </a>
+              </div>
+              
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela2">
+                  6) Momtong jireugi<br>
+                                   <span class="tecnica-traducao">Soco no Tronco</span>
+                </a>
+              </div>
+              
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela2">
+                  7) Eolgul-jireugi<br>
+                                    <span class="tecnica-traducao">Soco no Rosto</span>
+                </a>
+              </div>
+              <div class="tecnica-descricao">
+             Técnicas sobressalentes da (FGTKD) <br>Base de Caminhada (Ap-seogi)
+              </div>
+              
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela2">
+                  1) (Bakkatpalmok) Naeryo-hecheo-makgi <br>
+                                <span class="tecnica-traducao">  Defesa Espalhada Descendente</span>
+                </a>
+              </div>
+<div class="tecnica-descricao">
+                Base de Luta
+              </div>
+                <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela2">
+                  2) (Bakkatpalmok) Geoduro-bakkat-makgi  <br>
+                                    <span class="tecnica-traducao">Defesa p/ Fora Assistida</span>
+                </a>
+                    </div>
+
+
+<div class="tecnica-descricao">
+                 Base Frontal
+              </div>
+<div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela2">
+                  3) Anpalmok-bakkat-makgi<br>
+              
+                  <span class="tecnica-traducao">Defesa p/ Fora c/ Pulso Interno </span>
+                </a>
+              </div>
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela2">
+                  4) Nun-gawisonkkeut-jjireugi<br>
+                    <span class="tecnica-traducao">Perfurar Olhos c/ Dedos em Tesoura</span>
+                </a>
+              </div>
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela2">
+                  5) Moc-pyeonsonkkeut-jireugi<br>
+                                  <span class="tecnica-traducao">Perfurar Garganta c/ Mão em Lança</span>
+                </a>
+              </div>
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela2">
+                  13) Mok-du-sonnal-an-chigi<br>
+                 
+                  <span class="tecnica-traducao">Golpear Pescoço c/ Mãos em Faca</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="conteudo-janela">
+        <div class="janela-container" id="janela2"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TERCEIRO BLOCO - BALKISUL -->
+  <div class="secao-balkisul">
+    <div class="cabecalho">
+      <div class="titulo-container">
+        <h2 class="titulo-principal">BALKISUL</h2>
+        <p class="titulo-traducao">TÉCNICAS DE CHUTE</p>
+      </div>
+    </div>
+    
+    <div class="conteudo-principal">
+      <div class="conteudo-texto">
+        <div class="comando-container">
+          <div class="descricao-portugues">
+            <div class="grupo-tecnicas" data-video="VIDEO_ID_BALKISUL">
+              <div class="tecnica-descricao"></div>
+            </div>
+            <div class="tecnica-descricao">
+                Aprokah-wen-apgubi-naeryo-hecheo-makgi <br>
+
+Avanço à Esquerda + Defesa Espalhada Embaixo na Base Frontal
+
+              </div>
+            <div class="grupo-tecnicas" data-video="VIDEO_ID_BALKISUL_CHUTES">
+              <div class="tecnica-descricao"></div>
+
+               <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela3">
+                 1) Bandal-chagi <br>
+                
+                  <span class="tecnica-traducao">Chute Meia-Lua </span>
+                </a>
+              </div>
+              
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela3">
+                  2) Ap-chagi<br>
+                                    <span class="tecnica-traducao">Chute Frontal</span>
+                </a>
+              </div>
+              
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela3">
+                  3) Naeryo-oligi (Ap-oligi)<br>
+                                    <span class="tecnica-traducao">Elevação Frontal</span>
+                </a>
+              </div>
+              
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela3">
+                  4) Bakkat-oligi (Bakkat-chagi)<br>
+                  
+                  <span class="tecnica-traducao">Elevação p/ Fora</span>
+                </a>
+              </div>
+              
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela3">
+                  5) An-oligi (An-chagi) <br>
+                                    <span class="tecnica-traducao">Elevação p/ Dentro</span>
+                </a>
+              </div>
+              
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela3">
+                  6) Ttwieo-ap-chagi <br>
+                                    <span class="tecnica-traducao">Chute Frontal Saltado </span>
+                </a>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="conteudo-janela">
+        <div class="janela-container" id="janela3"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- QUARTO BLOCO - POOMSAE -->
+  <div class="secao-poomsae">
+    <div class="cabecalho">
+      <div class="titulo-container">
+        <h2 class="titulo-principal">FORMA</h2>
+        
+      </div>
+    </div>
+    
+    <div class="conteudo-principal">
+      <div class="conteudo-texto">
+        <div class="comando-container">
+          <div class="descricao-portugues">
+            <div class="grupo-tecnicas" data-video="VIDEO_ID_POOMSAE">
+              <div class="tecnica-descricao"></div>
+              
+              
+              
+              <div class="destaque destaque-grupo">
+                <a href="#" class="tecnica-link" aria-expanded="false" aria-controls="janela4">
+                  1) Saju-ap-chagi<br>
+                              <span class="tecnica-traducao">Chute Frontal nas Quatro Direções</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="conteudo-janela">
+        <div class="janela-container" id="janela4"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- QUINTO BLOCO - IRON -->
+  <div class="secao-iron">
+    <div class="cabecalho">
+      <div class="titulo-container">
+        <h2 class="titulo-principal">IRON</h2>
+        <p class="titulo-traducao">CONHECIMENTOS TEÓRICOS</p>
+      </div>
+    </div>
+    
+    <div class="conteudo-principal">
+      <div class="conteudo-texto">
+        <div class="comando-container">
+          <div class="descricao-portugues">
+            <div class="grupo-textos">
+              <div class="tecnica-descricao"></div>
+              
+              <div class="destaque" >
+                <span class="texto-destaque" style="font-style: normal !important;" data-texto="historia">História do Taekwondo</span>
+              </div>
+              
+              <div class="destaque">
+                <span class="texto-destaque" style="font-style: normal !important;" data-texto="principios">Princípios do Taekwondo</span>
+              </div>
+              
+              <div class="destaque">
+                <span class="texto-destaque" style="font-style: normal !important;" data-texto="espirito">Espírito do Taekwondo</span>
+              </div>
+              
+              <div class="destaque">
+                <span class="texto-destaque" style="font-style: normal !important;"  data-texto="virtudes">As Cinco Virtudes do Taekwondo</span>
+              </div>
+              
+              <div class="destaque">
+                <span class="texto-destaque" style="font-style: normal !important;" data-texto="juramento">Juramento do Aluno</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="conteudo-janela">
+        <div class="janela-container" id="janela5">
+          <div class="janela-texto" id="textoContainer">
+            <!-- Conteúdo teórico será inserido aqui via JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Conteúdo Teórico (inicialmente oculto) -->
+  <div id="conteudoTeorico" style="display: none;">
+    <!-- História do Taekwondo -->
+    <div id="historia" class="conteudo-teorico">
+      <h3>História do Taekwondo</h3>
+      <p>O mais instrutivo texto que encontrei sobre a origem do Taekwondo é este presente no link a seguir, divulgado pelo site da federação de brasileira ITF, e escrito pelo general Choi Hong Hi, o fundador da arte marcial. Antes mesmo da padronização da WTF, a arte que nós treinamos, o general Choi havia desenvolvido o Taekwondo a seu modo, e neste texto ele deixa claro o espírito que envolvia essa criação. <a href="http://www.fbt.org.br/" target="_blank">Acesse o texto por este link e participe dessa história!</a></p>
+    </div>
+    
+    <!-- Princípios do Taekwondo -->
+    <div id="principios" class="conteudo-teorico">
+      <h3>Princípios do Taekwondo</h3>
+      <ol>
+        <li><strong>CORTESIA</strong> (sua relação com o outro)</li>
+        <li><strong>INTEGRIDADE</strong> (evolução moral)</li>
+        <li><strong>PERSEVERANÇA</strong> (superar dificuldades internas)</li>
+        <li><strong>AUTOCONTROLE</strong> (controle das emoções)</li>
+        <li><strong>ESPÍRITO INDOMÁVEL</strong> (não recuar diante do inimigo)</li>
+      </ol>
+    </div>
+    
+    <!-- Espírito do Taekwondo -->
+    <div id="espirito" class="conteudo-teorico">
+      <h3>Espírito do Taekwondo</h3>
+      <p>O espírito do Taekwondo é a ideologia de Geukgi (autossuperação) e Hongik (humanitarismo), enraizada na ideologia tradicional coreana. Em outras palavras, consiste em dois valores que significam "superar a si mesmo" e "beneficiar o mundo". Geukgi é um princípio que os praticantes de Taekwondo devem usar como um guia no processo de prática para obter a força desejada. Um praticante deve ser capaz de superar repetidamente seus limites para que possa desenvolver sua força e seu eu. Por outro lado, Hongik é um princípio que deve ser usado como uma diretriz em relação ao uso da força adquirida através da prática do Taekwondo.</p>
+    </div>
+    
+    <!-- As Cinco Virtudes do Taekwondo -->
+    <div id="virtudes" class="conteudo-teorico">
+      <h3>As Cinco Virtudes do Taekwondo</h3>
+      <p>As cinco virtudes do Taekwondo foram elaboradas para serem usadas como diretrizes de ação para concretizar o espírito do Taekwondo, Geukgi e Hongik na vida cotidiana, tendo significados abstratos e multifacetados, e também devem ser usadas como materiais importantes para a educação do caráter dos jovens por meio do Taekwondo.</p>
+      <ol>
+        <li><strong>Perseverança (Innae):</strong><br>Perseverança significa a capacidade mental de suportar e superar a dor física e psicológica experimentada na prática do Taekwondo.</li>
+        <li><strong>Coragem (Yonggi):</strong><br>Coragem significa ter medo de oponentes difíceis ou tarefas encontradas durante o processo de prática.</li>
+        <li><strong>Cortesia (Yeui):</strong><br>Cortesia se refere tanto à humildade quanto ao respeito.</li>
+        <li><strong>Justiça (Jeongui):</strong><br>Justiça é um senso que cuida de todos em vez de cuidar de si mesmo.</li>
+        <li><strong>Voluntariado (Bongsa):</strong><br>O voluntariado é uma atividade para apoiar e servir alguém enquanto se compartilha os próprios bens.</li>
+      </ol>
+    </div>
+    
+    <!-- Juramento do Aluno -->
+    <div id="juramento" class="conteudo-teorico">
+      <h3>Juramento do Aluno</h3>
+      <ol>
+        <li>Observar as regras do Taekwondo</li>
+        <li>Respeitar meu instrutor e meus superiores</li>
+        <li>Nunca fazer mal uso do Taekwondo</li>
+        <li>Ser campeão da liberdade e da justiça</li>
+        <li>Construir um mundo mais pacífico</li>
+      </ol>
+    </div>
+  </div>
+
+</div>
+  
